@@ -19,7 +19,7 @@ jobs:
     with:
       image_name: ghcr.io/goauthentik/server,authentik/server
       release: true
-      registry_dockerhub: true
+      registry_dockerhub: false
       registry_ghcr: true
   build-docs:
     runs-on: ubuntu-latest
